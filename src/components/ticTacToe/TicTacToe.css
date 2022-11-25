@@ -1,0 +1,25 @@
+/* Tic Tac Toe */
+.tic-tac-toe{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    border: 2px solid #151515;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.tic-tac-toe .cell{
+    cursor: pointer;
+    font-size: 60px;
+    font-weight: 700;
+    border: 2px solid #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    color: #d80000;
+}
+.blue{
+    color: #003366;
+}
